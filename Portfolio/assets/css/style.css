@@ -1120,3 +1120,12 @@ section {
   box-shadow: 0 3px 6px rgba(0,0,0,.2), 0 3px 6px rgba(0,0,0,.2);
   margin: 1rem;
 }
+.rbtn_prot{
+  /* display: block;
+  background-image: url();
+  background-repeat: no-repeat;
+  text-indent: -1000px;
+  overflow: hidden;
+  border-style: none; */
+  pointer-events: none;
+}

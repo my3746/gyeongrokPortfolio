@@ -190,4 +190,9 @@
     aos_init();
   });
 
+  //이미지 우클릭 방지 
+  document.addEventListener("contextmenu", e => {
+    e.target.matches("img") && e.preventDefault()
+})
+
 })(jQuery);
